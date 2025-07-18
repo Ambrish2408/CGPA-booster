@@ -12,3 +12,9 @@ A simple and intuitive web-based tool to help students calculate and track their
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
+
+## 🧩 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ambrish2408/cgpa-booster.git
