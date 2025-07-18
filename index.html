@@ -1,0 +1,42 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CGPA Booster</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎓 CGPA Booster </h1>
+    <p>Empowering Students to Learn, Teach & Collaborate</p>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <h2>📚 Share Study Notes</h2>
+      <input type="text" id="noteTitle" placeholder="Enter note title" />
+      <textarea id="noteContent" placeholder="Paste your notes here..."></textarea>
+      <button onclick="addNote()">Upload Note</button>
+      <ul id="noteList"></ul>
+    </section>
+
+    <section class="cgpa-section">
+      <h2>🧮 CGPA Calculator</h2>
+      <div id="grades">
+        <input type="number" placeholder="Credit 1" class="credit" />
+        <input type="number" placeholder="Grade Point 1" class="grade" />
+      </div>
+      <button onclick="addField()">+ Add Subject</button>
+      <button onclick="calculateCGPA()">Calculate CGPA</button>
+      <p id="cgpaResult"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Students, for Students </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
